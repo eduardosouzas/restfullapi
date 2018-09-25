@@ -6,7 +6,7 @@ Message = require('./api/models/msgModel'),
 bodyParser = require('body-parser');
 
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://localhost/msgdb');
+mongoose.connect('mongodb://heroku_krvpw6lj:heroku_krvpw6lj@ds113693.mlab.com:13693/heroku_krvpw6lj');
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 var routes = require('./api/routes/msgRoutes');
