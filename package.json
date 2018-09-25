@@ -1,0 +1,30 @@
+{
+  "name": "restfull",
+  "version": "0.0.1",
+  "description": "que merda",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduardosouzas/restfullapi.git"
+  },
+  "keywords": [
+    "restfullapi",
+    "nodejs",
+    "mongodb",
+    "mongoose"
+  ],
+  "author": "edu.souza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eduardosouzas/restfullapi/issues"
+  },
+  "homepage": "https://github.com/eduardosouzas/restfullapi#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.17"
+  }
+}
